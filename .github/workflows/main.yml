@@ -1,0 +1,16 @@
+name : 'CI/CD'
+
+on:
+    push:
+      branches:
+        - "master"
+jobs:
+    hello-world:
+      runs-on:
+        - ubuntu
+      
+      steps:
+        -name: "Print hello world"
+        run: |
+          echo hello world
+          
