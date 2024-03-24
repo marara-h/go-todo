@@ -6,11 +6,11 @@ on:
         - "master"
 jobs:
     hello-world:
-      runs-on:
-        - ubuntu
+        runs-on:
+            - ubuntu
       
-      steps:
-        -name: "Print hello world"
-        run: |
-          echo hello world
-          
+        steps:
+            - name: "Print hello world"
+             run: |
+                echo hello world
+
