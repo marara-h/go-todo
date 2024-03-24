@@ -1,16 +1,16 @@
-name : 'CI/CD'
+name: "CI/CD"
 
-on:
-    push:
-      branches:
-        - "master"
+on: 
+    push: 
+        branches: 
+            - "master"
+
 jobs:
-    hello-world:
-        runs-on:
-            - ubuntu
-      
+    hello-world: 
+        runs-on: 
+            - ubuntu-latest
+        
         steps:
-            - name: "Print hello world"
-             run: |
+            - name: "print-hello-world"
+              run: |
                 echo hello world
-
