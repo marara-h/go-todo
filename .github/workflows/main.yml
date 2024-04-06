@@ -10,6 +10,7 @@ jobs:
          
         runs-on: 
             - "ubuntu-latest"
+            -  self-hosted
         
         steps:         
             - name: Checkout
@@ -25,6 +26,6 @@ jobs:
 
               
                 
-                
+
 
           
